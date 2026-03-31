@@ -1,0 +1,83 @@
+<!-- forEach -->]
+
+
+<!-- syntax -->
+
+<!-- array.forEach((element,index, array)=>{}) -->
+
+<script>
+//     const numbers = [20,30,40]
+
+//    const data = numbers.forEach((e,i)=>{
+//         console.log(`Index ${i}, element ${e}`);
+        
+//     })
+
+
+//     console.log(data);
+
+// const arr = [1,2,3,4,5,6]
+
+// syntax
+
+
+// const datas = arr.map((index,element)=>element*2)
+
+// console.log(datas);
+
+    
+// const arr = [1,4,0,2,5,0]
+
+// find
+// <!-- array.find((element,index, array)=>{}) -->
+
+// 
+
+// const data = arr.find((e)=>e%2==0)  
+
+// console.log(data);
+
+// filter()
+// <!-- array.filter((element,index, array)=>{}) -->
+
+// const arr = [1,4,0,2,5,0]
+
+// console.log(arr);
+
+
+// const data = arr.filter((e)=>e%2==0) 
+
+// console.log(data);
+
+// console.log(arr);
+
+
+// Reduce()
+// <!-- array.reduce((accumulator,current value or elemnts or items,index, array)=>{},initvalue) -->
+
+
+// const numbers = [5,10,15,50]
+
+// const total = numbers.reduce((acc,curr)=>acc+curr,0)
+
+// console.log(total);
+
+const leters = ["a","b","d","e","a","t","d","a","e","t","d","y"]
+
+
+const count = leters.reduce((acc,curr)=>{
+
+acc[curr] = (acc[curr] || 0) + 1
+
+return acc
+
+},{})
+
+
+console.log(count);
+
+
+// {a=a || 0} + 1
+
+
+</script>

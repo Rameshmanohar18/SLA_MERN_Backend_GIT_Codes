@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    background-color: aqua;
+    color: black;
+    padding: 18px;
+   text-align: center;
+}
+
+h1{
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+
+
+.btn {
+    background-color: white;
+    border: none;
+    padding: 6px;
+    width: 70px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+.parent {
+
+    
+    gap: 30px;
+    padding: 30px;
+   
+
+}
+
+
+.gp{
+
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.imgs{
+    width: 140px;
+}

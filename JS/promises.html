@@ -1,0 +1,172 @@
+<script>
+    // console.log("Start") ;
+
+    // setTimeout(()=>{
+
+    //     for(let a=0;a<5;a++){
+
+    //     console.log(a);
+        
+    // }
+
+    // },3000)
+   
+    // console.log("Process");
+  
+    // console.log("END");
+
+
+
+// const getData = (cb)=>{
+
+//      setTimeout(()=>{
+
+//        cb("Data Loaded")
+
+//     },2000)
+    
+// }
+
+
+// getData((data)=>{
+
+//     console.log(data);
+    
+
+// })
+
+
+
+// callback Hell
+
+
+// const step1 = (cb)=>{
+
+//       setTimeout(()=>{
+
+//        cb("Step 1 done")
+
+//     },2000)
+
+
+
+// }
+
+
+// step1((res1)=>{
+
+//     console.log(res1);
+
+//  setTimeout(()=>{
+
+//        console.log("Step 2 done");
+       
+
+//     },2000)
+    
+    
+
+// })
+    
+
+
+
+
+    // step1()
+    // step2()
+
+
+
+    // promise
+
+// const mypromise = new Promise((resolve,reject)=>{
+//     const success = true;
+
+//   if(success){
+
+// resolve("Yes Done")
+
+//   }else{
+
+//     reject("Error")
+
+//   }
+   
+
+
+// })
+
+
+
+// mypromise
+// .then((res)=>console.log(res).catch((error)=>console.log(error.message)))
+
+
+
+// console.log(mypromise);
+
+
+
+// async
+
+
+// const fetchdata = ()=>{
+//    return new Promise((resolve,reject)=>{
+
+
+//       setTimeout(()=>{
+//         resolve("Data Fetched")
+//       },2000)
+
+
+//     })
+// }
+
+// console.log(fetchdata());
+
+
+
+// const handleData = async()=>{
+   
+
+//     const result = await fetchdata();
+
+
+//     console.log(result);
+// }
+
+
+// handleData()
+
+
+// const getUsers = async ()=>{
+
+//  try {
+
+
+//     const res = await fetch("https://dummyjson.com/products")
+   
+//     const data =await res.json() 
+
+//     console.log(data.products);
+    
+//      const datas = data.products
+
+
+
+    
+//  } catch (error) {
+
+//     console.log('error',error);
+    
+    
+//  }
+  
+
+
+// }
+
+
+// getUsers()
+
+</script>
