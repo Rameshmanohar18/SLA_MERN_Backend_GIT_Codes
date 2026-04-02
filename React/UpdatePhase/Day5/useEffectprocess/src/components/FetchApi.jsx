@@ -10,7 +10,7 @@ const FetchApi = () => {
     //console.log(res.products);
     setDataSave(res.products)
     
- }
+ }   
 
 
  useEffect(()=>{
