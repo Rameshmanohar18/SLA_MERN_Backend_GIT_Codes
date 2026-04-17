@@ -1,9 +1,7 @@
 import userModel from "../models/userModel.js";
 
 export const createData = async(req,res)=>{
-    
-  
-
+    console.log("🌭 createData", createData);   
   try {
 
 const {userId,username,mobilenumber} = req.body
@@ -13,23 +11,13 @@ const {userId,username,mobilenumber} = req.body
 //     res.status(404).json({msg:"Please Filed the Data"})
 //     return
 
-// }
+// }      
 
 const create = await userModel.create({userId,username,mobilenumber})
-
-
 res.status(201).json({msg:"Successfully Added"})
-
-    
   } catch (error) {
-
-    console.log('Error',error);
-    
-    
-  }
-
-
-    
+    console.log('Error',error); 
+  }    
 }
 
 
