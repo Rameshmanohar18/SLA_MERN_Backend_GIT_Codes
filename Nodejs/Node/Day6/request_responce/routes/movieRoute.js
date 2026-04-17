@@ -1,5 +1,5 @@
 import express from 'express'
-import { movieCreate, movieFilter, moviegetbyParams, movieToken } from '../controllers/movieController.js'
+import { movieCreate, movieFilter, MovieGetByParams, moviegetbyParams, movieToken } from '../controllers/movieController.js'
 
 
 // // http://localhost:5000/api/movie/create
@@ -10,7 +10,7 @@ import { movieCreate, movieFilter, moviegetbyParams, movieToken } from '../contr
 const route = express.Router()
 
 route.post('/create',movieCreate)
-route.get('/getbyparams/:movieid',moviegetbyParams)
+route.get('/getbyparams/:movieid',MovieGetByParams)
 route.get('/moviefilter',movieFilter)
 route.get('/additional',movieToken)
 export default route
