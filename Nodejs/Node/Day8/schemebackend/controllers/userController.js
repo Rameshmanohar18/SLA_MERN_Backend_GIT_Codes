@@ -18,7 +18,7 @@ res.status(201).json({msg:"Successfully Added"})
   } catch (error) {
     console.log('Error',error); 
   }    
-}
+} 
 
 
 export const getData = async(req,res)=>{
@@ -30,12 +30,8 @@ export const getData = async(req,res)=>{
         res.status(200).json({fetchData})
         
     } catch (error) {
-
         console.log('Something error',error);
-        
-        
     }
-
 }
 
 
